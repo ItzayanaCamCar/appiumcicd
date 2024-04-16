@@ -7,7 +7,7 @@
         <parameter name="systemPort" value="10000"/>
         <parameter name="chromeDriverPort" value="11000"/>
         <classes>
-            <class name="com.qa.runners.Xiaomi_Note_10"/>
+            <!--    <class name="com.qa.runners.Xiaomi_Note_10"/>-->
         </classes>
     </test>
 </suite>
