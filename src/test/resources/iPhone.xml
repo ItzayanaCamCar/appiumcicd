@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+    <test name="iOS">
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="udid" value="0AC362E0-E320-4726-A71D-27E1FC627CD7"/>
+        <parameter name="deviceName" value="iPhone 14"/>
+        <parameter name="wdaLocalPort" value="10001"/>
+        <parameter name="webkitDebugProxyPort" value="11001"/>
+        <classes>
+            <class name="com.qa.runners.iPhone"/>
+        </classes>
+    </test>
+</suite>
