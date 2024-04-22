@@ -70,7 +70,7 @@ public class GlobalParams {
 
         // globalParams.setPlatformName(System.getProperty("platformName", "Android"));
         // globalParams.setUdid(System.getProperty("udid", "9301a54d"));
-//        globalParams.setDeviceName(System.getProperty("deviceName", "Xiaomi_Note_10"));
+        // globalParams.setDeviceName(System.getProperty("deviceName", "Xiaomi_Note_10"));
 
         switch (globalParams.getPlatformName()) {
 

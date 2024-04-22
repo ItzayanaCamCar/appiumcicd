@@ -18,7 +18,7 @@ public class CapabilitiesManager {
             utils.log().info("Getting capabilities");
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setCapability("platformName", properties.getProperty("platformName"));
-            capabilities.setCapability("udid", properties.getProperty("udid"));
+            capabilities.setCapability("udid", globalParams.getUdid());
             capabilities.setCapability("deviceName", properties.getProperty("deviceName"));
 
             switch (globalParams.getPlatformName()) {

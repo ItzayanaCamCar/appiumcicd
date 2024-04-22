@@ -19,6 +19,6 @@ import io.cucumber.testng.CucumberOptions;
         , monochrome = true
         , tags = "@test"
 )
-public class iPhone extends RunnerBase {
+public class iPhone_14 extends RunnerBase {
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
+<suite name="Suite" parallel="tests">
     <test name="Android">
         <parameter name="platformName" value="Android"/>
         <parameter name="udid" value="9301a54d"/>
@@ -7,7 +7,7 @@
         <parameter name="systemPort" value="10000"/>
         <parameter name="chromeDriverPort" value="11000"/>
         <classes>
-            <!--    <class name="com.qa.runners.Xiaomi_Note_10"/>-->
+            <class name="com.qa.runners.Xiaomi_Note_10"/>
         </classes>
     </test>
 </suite>
