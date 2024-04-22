@@ -26,7 +26,7 @@ public class DriverManager {
 
         if (driver == null) {
             try {
-                utils.log().info("Initializing appium driver");
+                utils.log().info("Initializing appium driver.");
 
                 switch (globalParams.getPlatformName()) {
                     case "Android":
