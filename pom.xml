@@ -15,8 +15,8 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/Android.xml</suiteXmlFile>
-                        <suiteXmlFile>src/test/resources/iPhone.xml</suiteXmlFile>
+                        <suiteXmlFile>Android.xml</suiteXmlFile>
+                        <suiteXmlFile>iPhone.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
